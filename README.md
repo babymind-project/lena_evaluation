@@ -1,9 +1,10 @@
 # Code for 'Evaluating the LENA System for Korean'
 
 This repository accompanies our upcoming paper, **Evaluating the LENA System for Korean** (McDonald et al., 2020).
-The data (transcripts) used in evaluation is not yet public and this repository is meant to be a reference only for the time being.
 
-## Data format
+## Data
+Our data, coding manual, and paper draft are shared on https://osf.io/uztxr/.
+
 The original LENA transcripts are CHAT (`.cha`) files, having been exported from the LENA software.
 The human transcripts are TextGrids (`.TextGrid`).
 The spreadsheet `clip_data.xlsx` includes the relevant variables for each of the 60 clips, such as AWC and CVC.
@@ -33,6 +34,12 @@ If not, an error will be thrown by the `konlpy` library when a dependent method 
 Installation instructions can be found in https://konlpy.org/en/latest/install/.
 
 
-## Coding manual
+## License
 
-Our coding guidelines for the transcriptions can be found at https://docs.google.com/document/d/1d-CWoHjXyvCOtTCxtgDKrYX_v-YGJf-yoXFzq5khBRs/edit.
+Distributed under the MIT License. See LICENSE for more information.
+
+
+## Acknowledgements
+
+This work was supported by Institute for Information & Communications Technology Planning \ Evaluation(IITP) grant funded by the Korea government(MSIT) (No.2019-0-01367, Infant-Mimic Neurocognitive Developmental Machine Learning from Interaction Experience with Real World (BabyMind)).
+
